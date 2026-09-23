@@ -1,0 +1,14 @@
+# SQL Server data and backup files
+# (in case a local .bak or database file ever ends up in this folder)
+*.bak
+*.mdf
+*.ldf
+*.ndf
+
+# Windows OS junk
+Thumbs.db
+desktop.ini
+
+# Editor/temp files
+*.tmp
+*.bak~
