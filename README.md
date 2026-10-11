@@ -8,17 +8,12 @@ This project demonstrates an end-to-end data warehousing workflow, from loading 
 
 The goal is to create a reliable foundation for analyzing customer behavior, product performance, and sales trends using SQL.
 
-## 🏗️ Architecture
 
-The project follows a **Medallion Architecture** with three layers:
 
-- **Bronze Layer:** Stores raw data loaded from CRM and ERP CSV files.
-- **Silver Layer:** Cleans, standardizes, and validates the source data.
-- **Gold Layer:** Organizes business-ready data into a dimensional model for analytics.
+## 🏗️ Data Architecture
 
-```
-Data Flow: docs(/Architecture.png)
-```
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](docs/Architecture.png)
 
 ## 🛠️ Technologies Used
 
