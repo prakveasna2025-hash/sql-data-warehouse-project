@@ -16,19 +16,8 @@ The project follows a **Medallion Architecture** with three layers:
 - **Silver Layer:** Cleans, standardizes, and validates the source data.
 - **Gold Layer:** Organizes business-ready data into a dimensional model for analytics.
 
-```text
-CRM CSV Files ──┐
-                ├──> Bronze Layer
-ERP CSV Files ──┘         |
-                          v
-                    Silver Layer
-                          |
-                          v
-                     Gold Layer
-                   (Star Schema)
-                          |
-                          v
-                  Analytical Queries
+```
+Data Flow: docs(/Architecture.png)
 ```
 
 ## 🛠️ Technologies Used
